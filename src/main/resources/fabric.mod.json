@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "colgemlight",
+  "version": "1.0.1",
+  "name": "Colgem Light",
+  "description": "Completely disables lighting calculations and allows setting a fixed brightness level.",
+  "authors": [
+    "Colgem"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "main": [
+      "net.colgem.colgemlight.ColgemLight"
+    ],
+    "client": [
+      "net.colgem.colgemlight.ColgemLightClient"
+    ]
+  },
+  "mixins": [
+    "colgemlight.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": "*",
+    "minecraft": "1.16.5"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "package": "net.colgem.colgemlight.mixin",
+  "compatibilityLevel": "JAVA_16",
+  "mixins": [
+    "LightingMixin",
+    "ChunkLightProviderMixin"
+  ],
+  "client": [
+    "ClientChunkManagerMixin",
+    "SodiumClonedChunkMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
